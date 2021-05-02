@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Description" content="Careers at Nuzum Nterprise Technology Incorporated.">
+        <link rel = "stylesheet" href = "css/careers.css?v1.15">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <script src = "https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons " rel="stylesheet">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101872915-1"></script>
+        <script defer>
+            $(document).ready(function() {
+                if(localStorage.canTrack) {
+                    run();
+                    $("#privacyPolicy").remove();
+                }
+                $("button").click(function() {
+                    $("#privacyPolicy").remove();
+                });
+                $(".optIn").click(function() {
+                    localStorage.canTrack = true;
+                    run()
+                });
+                $(".optOut").click(function() {
+                    alert("Your choice has been noted");
+                });
+                function run() {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-101872915-1');
+                }
+            });
+        </script>
+        <title>Careers At Nuzum Nteprise</title>
+    </head>
+    <body id = "careersPage">
+        <div id = "privacyPolicy">
+            At Nuzum Nterprise, we use Google Analytics
+            to improve our site. This allows us to
+            view daily page views, demographics and
+            more. <a href = "privacy.php" target = "_blank">Learn More</a><br><br>
+            <div class = "row">
+                <div class = "col s6">
+                    <button class = "btn-large red optOut">Opt out</button>
+                </div>
+                <div class = "col s6">
+                    <button class = "btn-large green optIn">Opt in</button>
+                </div>
+            </div>
+        </div>
+        <navbar>
+            <a class = "hide-on-med-and-down" href = "http://nterprisesoftware.com"><img src = "images/longLogo.png?v=4"></a>
+            <a class = "hide-on-large-only" href = "http://nterprisesoftware.com"><img src = "images/logo.png?v=4"></a>
+            <h1>Careers</h1>
+        </navbar>
+        <div id = "wrap">
+            <div id = "content">
+                <br>
+                <p>
+                    If you are a teen, and live in or around Wicklow, Ireland,
+                    you might want to apply for a weekend/summer job at Nuzum
+                    Nterprise.
+                    If your good at web design/programming, graphics design or
+                    social media marketing we have just the job for you.
+                </p>
+                <br>
+                <span style = "font-weight:bold;">Why Nuzum Nteprise?</span>
+                <br>
+                <p>
+                    By volunteering at Nuzum Nterprise you will be helping to
+                    change the world. By joining the Nuzum Nterprise founding
+                    team, you will be guaranteed a paid job in the future while
+                    also getting to work in a friendly environment where your
+                    creativity is allowed to flourish.
+                </p>
+                <br>
+                <ul class = "collection with-header">
+                    <li class = "collection-header grey-text">Jobs</li>
+                    <li class = "collection-item"><a href = "#desProg">Web Designer / Programmer</a></li>
+                    <li class = "collection-item"><a href = "#ui">UI Designer</a></li>
+                    <li class = "collection-item"><a href = "#grades">Graphics Designer</a></li>
+                    <li class = "collection-item"><a href = "#socmedmark">Social Media Marketer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id = "desProg" class = "description" class = "white">
+            <div class = "title">Web Designer/ Programmer <a href = "#" title = "Back to top"><i class = "material-icons medium">arrow_upward</i></a></div>
+            <br>
+            Required Skills:
+            <ul class = "browser-default">
+                <li>Html/css</li>
+                <li>Javascript + jQuery</li>
+            </ul>
+            <br>
+            Bonus Skills:
+            <ul class = "browser-default">
+                <li>File Transfer Protocol (FTP)</li>
+                <li>Node.js</li>
+                <li>Whichever Node.js host we decide to use</li>
+            </ul>
+            <br>
+            Email me at nuzumalex@gmail.com for more info.
+        </div>
+        <div id = "ui" class = "description" class = "white">
+            <div class = "title">UI Designer <a href = "#" title = "Back to top"><i class = "material-icons medium">arrow_upward</i></a></div>
+            <br>
+            Required Skills:
+            <ul class = "browser-default">
+                <li>Html/css</li>
+                <li>Keen eye for colors</li>
+                <li>
+                    Good communication between programmers and
+                    graphics artists
+                </li>
+            </ul>
+            <br>
+            Email me at nuzumalex@gmail.com for more info.
+        </div>
+        <div id = "grades" class = "description" class = "white">
+            <div class = "title">Graphics Designer <a href = "#" title = "Back to top"><i class = "material-icons medium">arrow_upward</i></a></div>
+            <br>
+            Required Skills:
+            <ul class = "browser-default">
+                <li>Good Knowledge of some paint editor (not MS Paint)</li>
+                <li>Good at graphics  (no brainer)</li>
+                <li>Keen eye for colors</li>
+                <li>
+                    Good communication between programmers and
+                    graphics web designers.
+                </li>
+            </ul>
+            <br>
+            Email me at nuzumalex@gmail.com for more info.
+        </div>
+        <div id = "socmedmark" class = "description" class = "white">
+            <div class = "title">Social Media Marketer <a href = "#" title = "Back to top"><i class = "material-icons medium">arrow_upward</i></a></div>
+            <br>
+            Required Skills:
+            <ul class = "browser-default">
+                <li>Good Knowledge of Facebook/Twitter Or Google+</li>
+                <li>Good at creative writing</li>
+            </ul>
+            <br>
+            Email me at nuzumalex@gmail.com for more info.
+        </div>
+    </body>
+</html>

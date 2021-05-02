@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<rss version="2.0">
+  <channel>
+    <title>About</title>
+    <link>http://nterprisesoftware.com</link>
+    <description />
+    <item>
+      <guid>http://nterprisesoftware.com/</guid>
+      <title>About</title>
+      <link>http://nterprisesoftware.com/</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://nterprisesoftware.com/careers.html</guid>
+      <title>Careers At Nuzum Nteprise</title>
+      <link>http://nterprisesoftware.com/careers.html</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://nterprisesoftware.com/cores.php</guid>
+      <title>Core Values</title>
+      <link>http://nterprisesoftware.com/cores.php</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://nterprisesoftware.com/future.php</guid>
+      <title>A Taste Of The Future</title>
+      <link>http://nterprisesoftware.com/future.php</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://nterprisesoftware.com/products.php</guid>
+      <title>Products</title>
+      <link>http://nterprisesoftware.com/products.php</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://nterprisesoftware.com/index.php</guid>
+      <title>About</title>
+      <link>http://nterprisesoftware.com/index.php</link>
+      <description />
+    </item>
+  </channel>
+</rss>
+<!--<guid value="5995eff8-ecbf-41f8-b6c4-6f7cdd4e430c" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

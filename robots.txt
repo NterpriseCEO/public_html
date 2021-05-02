@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+Sitemap: http://nterprisesoftware.com/sitemap.xml

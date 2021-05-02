@@ -1,0 +1,261 @@
+body {
+    font-family: "Segoe UI",Arial,Helvetica,sans-serif !important;
+    font-size:2vw;
+    height:100%;
+}
+#privacyPolicy {
+    position:fixed;
+    display:none;
+    padding:1vw;
+    top:10vh;
+    left:24vw;
+    width:50vw;
+    height:auto;
+    background-color:white;
+    box-shadow:0 5px 10px 0 rgba(0, 0, 0, .3);
+    z-index:2;
+    transition: all 0s 9999999s;
+}
+#privacyPolicy a {
+    display:inline !important;
+}
+#privacyPolicy button:active ~ #privacyPolicy {
+    transition:all 0s;
+    display:none;
+}
+a[target="_blank"] {
+    display:none;
+}
+#wrap {
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    overflow:hidden;
+}
+
+#navbar {
+    position:fixed;
+    width:100%;
+    height:9vh;
+    top:0;
+    left:0;
+    background-color:white;
+    font-size:1.5vw;
+    z-index:1;
+    text-align:center;
+    border-bottom:1px solid gainsboro;
+}
+#navbar span,a,#dropdown a {
+    color:black;
+    text-decoration:none;
+}
+#navbar span {
+    display:none;
+    font-size:4vh;
+    line-height:9vh;
+}
+
+.link {
+    float:left;
+    padding-left:1.5vw;
+    padding-right:1.5vw;
+    line-height:9vh;
+    float:right;
+}
+.link:hover a {
+    color:rgb(200,200,200) !important;
+}
+.link a {
+    font-weight:700;
+    color:black;
+}
+
+#navbar h1 {
+    display:none;
+    font-size:4vh;
+    line-height:9vh
+}
+#navbar img {
+    float:left;
+    height:100%;
+    padding:0.5vh;
+}
+#careers {
+    float:right;
+    display:table;
+    margin-top:1vh;
+    margin-right:1vh;
+    height:7vh;
+    border:2px solid #5BCC8B;
+    transition:1s color;
+    font-weight:800;
+    color:#5BCC8B;
+    box-sizing:border-box;
+}
+#cButton {
+    vertical-align:middle;
+    padding:.5vh 1vh;
+}
+#cButton,
+.link {
+    display:table-cell
+}
+
+#dropdown {
+    position:fixed;
+    display:none;
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:-101vw;
+    font-size:8vw;
+    background-color:white;
+    z-index:2;
+    text-align:center;
+}
+#dropdown a {
+    float:left;
+    width:100vw;
+    height:calc(100vh / 7);
+    line-height:calc(100vh / 7);
+    text-align:left;
+    padding-left:5vw;
+    border-bottom:1px solid gainsboro;
+}
+#inView {
+    width:1vw;
+    height:10vh;
+    background-color:red;
+}
+
+#content {
+    text-align:center;
+    width:100%;
+    padding-top:5vh !important;
+    padding:1vw;
+}
+#content a {
+    text-decoration:underline;
+}
+
+p {
+    margin:0 auto;
+    width:60vw;
+}
+
+#footer {
+    width:100%;
+    height:auto;
+    background-color:#323232;
+    color:#d3d3d3;
+    box-sizing:border-box;
+    padding:1vw;
+}
+#footer a {
+    color:#d3d3d3;
+    text-decoration:underline;
+}
+
+.addthis_inline_follow_toolbox {
+    width:32vh;
+}
+.at-icon,.at-icon-wrapper,.at300b {
+    width:7vh!important;
+    height:7vh!important;
+}
+
+#bottom {
+    width:50vw;
+    padding-top:1vw;
+}
+#bottom input {
+    display:inline-block;
+    font-size:2vw;
+    box-sizing:border-box;
+    width:20vw;
+}
+#bottom input[type=submit] {
+    width:10vw;
+    margin-left:0;
+}
+
+@media only screen and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    #navbar {
+        font-size:2vw;
+    }
+}
+@media all and (orientation : portrait) {
+    .material-icons {
+        line-height:15vw !important;
+        font-size:20vw !important;
+    }
+    #privacyPolicy {
+        left:0;
+        width:100vw;
+        font-size:5vw;
+    }
+    #navbar {
+        text-align:left;
+        padding:1vw;
+    }
+    .link {
+       display:none;
+    }
+    #dropdown {
+        display:block;
+    }
+    #dropdownX {
+        text-align:right !important;
+        width:100vw;
+        height:10vh !important;
+        border-bottom:1px solid gainsboro;
+        cursor:pointer;
+    }
+    .oVHid {
+       overflow:hidden;
+    }
+    #navbar a {
+        display:none;
+    }
+
+    #footer {
+        height:30vh;
+        font-size:5vw;
+        padding-left:5vw;
+    }
+
+    .addthis_inline_follow_toolbox {
+        margin-top:7vh;
+        width:100%;
+    }
+    .at-icon,.at-icon-wrapper,.at300b {
+        width:22vw!important;
+        height:22vw!important
+    }
+    #bottom input[type="text"] {
+        display:block;
+        float:left;
+        width:70vw !important;
+        height:6vh;
+        font-size:6vw;
+    }
+    input[type="submit"] {
+        width:20vw !important;
+        font-size:4vw !important;
+    }
+    #bottom {
+        width:90vw;
+        height:8vh;
+    }
+    #bottom:after {
+        clear:both;
+    }
+    #bottom input[type="submit"] {
+        display:block;
+        float:left;
+        width:9.9vw;
+        height:6vh;
+    }
+}
